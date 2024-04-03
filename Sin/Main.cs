@@ -12,6 +12,7 @@ namespace SOHCAHTOABusLogic
         Hypotenuse hypClass = new Hypotenuse();
         Adjacent adjClass = new Adjacent();
         Angle angleClass = new Angle();
+        Radian radianClass = new Radian();
 
 
         public string opposite;
@@ -40,6 +41,9 @@ namespace SOHCAHTOABusLogic
                 Console.WriteLine($"Angle using Cos: {angleClass.Degree(opposite, hypotenuse, adjacent, angle, 2)}");
                 Console.WriteLine($"Angle using Tan: {angleClass.Degree(opposite, hypotenuse, adjacent, angle, 3)}");
             }
+
+            Console.WriteLine($"Radian based on opposite and hypotenuse: {radianClass.Rad(opposite, hypotenuse, angle, 1)}");
+            Console.WriteLine($"Radian based on opposite and hypotenuse: {radianClass.Rad(opposite, hypotenuse, angle, 2)}");
 
         }
 

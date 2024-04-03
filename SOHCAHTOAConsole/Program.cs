@@ -10,5 +10,7 @@ Console.Write($"Enter Hypotenuse: ");
 main.hypotenuse = Console.ReadLine();
 Console.Write($"Enter Angle: ");
 main.angle = Console.ReadLine();
+Console.WriteLine("\n");
 
 main.Home();
+
